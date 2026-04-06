@@ -1,6 +1,6 @@
 // CONFIG DATABASE GITHUB
 const GH_TOKEN = "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"; // HATI-HATI: Jangan share file ini!
-const REPO = "USERNAME_KAMU/REPO_NAME";
+const REPO = "epep7474/gamecb";
 const PATH = "database.json";
 
 let dbData = null;
