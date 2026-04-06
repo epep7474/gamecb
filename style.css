@@ -1,0 +1,6 @@
+body { background: #050505; color: #00ff88; font-family: 'Courier New', monospace; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+.container { border: 2px solid #00ff88; padding: 20px; border-radius: 10px; background: #111; box-shadow: 0 0 20px #00ff8866; text-align: center; width: 320px; }
+input { width: 90%; padding: 10px; margin: 10px 0; background: #000; border: 1px solid #00ff88; color: #fff; }
+button { width: 100%; padding: 10px; background: #00ff88; border: none; font-weight: bold; cursor: pointer; }
+.hidden { display: none; }
+#captcha-code { background: #222; padding: 5px 15px; letter-spacing: 5px; font-weight: bold; border: 1px dashed #00ff88; }

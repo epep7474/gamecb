@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>CyberScore v2 - Ilman Dev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" class="container">
+        <div id="auth-screen">
+            <h1>CYBER AUTH</h1>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <div class="captcha-box">
+                <span id="captcha-code"></span>
+                <input type="text" id="captcha-input" placeholder="Isi Captcha">
+            </div>
+            <button onclick="handleAuth()">MASUK / DAFTAR</button>
+        </div>
+
+        <div id="game-screen" class="hidden">
+            <div class="stats">Skor: <span id="score">0</span></div>
+            <canvas id="gameCanvas" width="300" height="300"></canvas>
+            <button onclick="saveScore()">SIMPAN SKOR KE GITHUB</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
